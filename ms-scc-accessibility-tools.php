@@ -1,11 +1,11 @@
 <?php
 /*
- * Plugin Name: MS Accessibility Tools
- * Plugin URI: https://github.com/thiagolt90/ms-accessibility-tools
- * Description: Tools for Accessibility
- * Version: 1.1.0
- * Author: Thiago Teixeira/Josh Fields
- * Text Domain: ms-accessibility-tools
+ * Plugin Name: WP Azure Cognition
+ * Plugin URI: https://github.com/partiallypro/azure-ai-alt/
+ * Description: Automatic alt text and dictation using Azure Conginitive services
+ * Version: 1.0
+ * Author: Josh Fields & Thiago Teixeira
+ * Text Domain: azure-ai-alt
  * License: GPLv2 or later
  */
  
