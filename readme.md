@@ -7,16 +7,16 @@
 
 == Description ==
 
-This plugins uses Microsoft Azure Cognitive Services to automatically add alt text to images, both for new uploads and in bulk for old images. It also allows for dictation by Azure's Bing 
+This plugins uses Microsoft Azure Vision API to automatically add alt text to images, both for new uploads and in bulk for old images. It also allows for dictation by Azure's Bing Speech API if a key is input.
 
 == Installation ==
 
 Install it like any other plugin, no special actions required.
-1. Upload `ms-accessibility-tools` folder to the `/wp-content/plugins/` directory
+1. Upload `wp-azure-cognition` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Ready to use. To configure - go to the Accessibility Tools section
+3. Ready to use. To configure - go to the Azure AI section
 
-== Common Problem ==
+== Common Problems ==
 
 If using Azure Web Apps, be sure to not use relative URLs in your wp-config.php file.
 
