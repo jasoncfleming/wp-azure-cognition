@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Azure Alt AI ===
 Contributors: Josh Fields & Thiago Teixeira
 Requires at least: 4.8
 Tested up to: 4.9.5
