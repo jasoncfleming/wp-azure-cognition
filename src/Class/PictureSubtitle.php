@@ -4,7 +4,7 @@ class MSAT_PictureSubtitle
 {
     /* Get the data from the API using the post_id */
     public static function msat_picture_subtitle_get_data( $post_id ) {
-        $image_url = wp_get_attachment_url( $post_id );
+        $image_url = wp_get_attachment_url( $post_id, 'large' );
         $endpoint = get_option( MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL, 'https://westcentralus.api.cognitive.microsoft.com/vision/v1.0' );
         $endpoint_url = esc_url( trailingslashit( $endpoint ) . 'describe' );
         if ( !$api_key = get_option( MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API )) {

@@ -1,5 +1,5 @@
 <div class="wrap">
-    <h1>Microsoft SCC Accessibility Tools - Preferences</h1>
+    <h1>Wordpress Cognition</h1>
     <form method="post" novalidate="novalidate">
         <input name="action" value="save" type="hidden" method="POST">
         <table class="form-table">
@@ -18,7 +18,7 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        <label for="<?= MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API; ?>">Computer Vision API</label>
+                        <label for="<?= MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API; ?>">Azure Vision API</label>
                     </th>
                     <td>
                         <input name="<?= MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API; ?>" id="<?= MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API; ?>" value="<?= $msat_computer_vision_api; ?>" class="regular-text" type="text">
@@ -27,7 +27,7 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        <label for="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>">Computer Vision Confidence</label>
+                        <label for="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>">Azure Vision Confidence</label>
                     </th>
                     <td>
                         <input name="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>" id="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>" value="<?= $msat_confidence; ?>" class="regular-text" type="text">
@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <th scope="row">
-                        <label for="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>">Computer Vision Endpoint</label>
+                        <label for="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>">Azure Vision Endpoint</label>
                     </th>
                     <td>
                         <input name="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>" id="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>" value="<?= $msat_computer_vision_endpoint; ?>" class="regular-text" type="text">

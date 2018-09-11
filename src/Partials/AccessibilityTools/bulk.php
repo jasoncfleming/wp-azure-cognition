@@ -1,5 +1,5 @@
 <div class="wrap">
-    <h1>Microsoft SCC Accessibility Tools - Bulk Optimize</h1>
+    <h1>Wordpress Cognition - Bulk Optimize</h1>
     <div class="row">
         <div class="col-md-6 col-xs-12">
             <div class="accessibility-card">
