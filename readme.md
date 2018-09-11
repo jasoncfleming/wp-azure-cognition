@@ -1,9 +1,9 @@
 === Azure Alt AI ===
 
-Contributors: Josh Fields & Thiago Teixeira
-Requires at least: 4.8
-Tested up to: 4.9.8
-Stable tag: 1.0.0
+* Contributors: Josh Fields & Thiago Teixeira
+* Requires at least: 4.8
+* Tested up to: 4.9.8
+* Stable tag: 1.0.0
 
 == Description ==
 
