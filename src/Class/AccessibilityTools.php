@@ -34,7 +34,7 @@ class MSAT_AccessibilityTools
         add_action('admin_menu', 'msat_add_all_menus');
 
         function msat_add_all_menus() {
-            add_menu_page( 'Accessibility Tools', 'Accessibility Tools', 'manage_options', 'AccessibilityToolsPreferences', 'AccessibilityToolsPreferences', 'dashicons-welcome-view-site', 80 );
+            add_menu_page( 'Azure AI', 'Azure AI', 'manage_options', 'AccessibilityToolsPreferences', 'AccessibilityToolsPreferences', 'dashicons-visibility', 80 );
             add_submenu_page( 'AccessibilityToolsPreferences', 'Bulk Optimize', 'Bulk Optimize', 'manage_options', 'AccessibilityToolsBulk', 'AccessibilityToolsBulk' );
         }
     }
