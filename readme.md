@@ -23,4 +23,7 @@ If using Azure Web Apps, be sure to not use relative URLs in your wp-config.php 
 == Changelog ==
 
 = 1.0.0 =
-* Forked from MS Accessibility Tools to use new Azure Vision API format. Removed translation services.
+* Forked from MS Accessibility Tools to use new Azure Vision API format.
+* Added ability to change confidence intervals & API endpoints.
+* Removed translation services.
+* Uploading the "large" picture to Azure instead of the full size to avoid 4MB cap.
