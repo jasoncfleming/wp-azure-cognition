@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: WP Azure Cognition
- * Plugin URI: https://github.com/partiallypro/azure-ai-alt/
+ * Plugin URI: https://github.com/partiallypro/wp-azure-cognition
  * Description: Automatic alt text and dictation using Azure Conginitive services
  * Version: 1.0
  * Author: Josh Fields & Thiago Teixeira
