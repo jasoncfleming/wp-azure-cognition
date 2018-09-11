@@ -5,6 +5,8 @@ class MSAT_AccessibilityTools
     /* Constants */
     const MSAT_BING_SPEECH_API          = "msat_bing_speech_api";
     const MSAT_COMPUTER_VISION_API      = "msat_computer_vision_api";
+    const MSAT_CONFIDENCE               = "msat_confidence";
+    const MSAT_PICTURE_SUBTITLE_DESCRIBE_URL = "msat_computer_vision_endpoint";
     const MSAT_TRANSLATOR_TEXT_API      = "msat_translator_text_api";
     const MSAT_LANGUAGE                 = "msat_language";
     const MSAT_POST_META_OPTIMIZED      = "_msat_optimized";
@@ -13,18 +15,6 @@ class MSAT_AccessibilityTools
     const MSAT_OPTIMIZED_STATUS_EXISTS  = "2";
 
     const MSAT_LANGUAGE_LIST            = array(
-        "pt-br" => array(
-            "name" => "Português (Brazil)",
-            "speaker" => "pt-BR, HeloisaRUS"
-        ),
-        "es-es" => array(
-            "name" => "Español (Spain)",
-            "speaker" => "es-ES, Laura, Apollo"
-        ),
-        "es-mx" => array(
-            "name" => "Español (Mexico)",
-            "speaker" => "es-MX, HildaRUS"
-        ),
         "en-us" => array(
             "name" => "English (United States)",
             "speaker" => "en-US, ZiraRUS"

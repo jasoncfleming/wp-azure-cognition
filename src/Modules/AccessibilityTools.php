@@ -7,6 +7,8 @@ function AccessibilityToolsPreferences() {
     if ($_REQUEST["action"] == "save") {
         update_option( MSAT_AccessibilityTools::MSAT_BING_SPEECH_API, $_REQUEST[MSAT_AccessibilityTools::MSAT_BING_SPEECH_API], true );
         update_option( MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API, $_REQUEST[MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API], true );
+        update_option( MSAT_AccessibilityTools::MSAT_CONFIDENCE, $_REQUEST[MSAT_AccessibilityTools::MSAT_CONFIDENCE], true );
+        update_option( MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL, $_REQUEST[MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL], true );
         update_option( MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API, $_REQUEST[MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API], true );
         update_option( MSAT_AccessibilityTools::MSAT_LANGUAGE, $_REQUEST[MSAT_AccessibilityTools::MSAT_LANGUAGE], true );
     }
@@ -15,6 +17,8 @@ function AccessibilityToolsPreferences() {
     $msat_options = array(
         MSAT_AccessibilityTools::MSAT_BING_SPEECH_API,
         MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API,
+        MSAT_AccessibilityTools::MSAT_CONFIDENCE,
+        MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL,
         MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API,
         MSAT_AccessibilityTools::MSAT_LANGUAGE
     );

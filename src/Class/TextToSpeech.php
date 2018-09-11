@@ -115,14 +115,7 @@ class MSAT_TextToSpeech
             if ( $audio != null ) {
 
                 /* Language */
-                if (get_option( MSAT_AccessibilityTools::MSAT_LANGUAGE ) == "pt-br") {
-                    $language_speaker = "Ouvir Texto";
-                } elseif (get_option( MSAT_AccessibilityTools::MSAT_LANGUAGE ) == "en-us") {
-                    $language_speaker = "Listen to Text";
-                } elseif (get_option( MSAT_AccessibilityTools::MSAT_LANGUAGE ) == "es-es" || get_option( MSAT_AccessibilityTools::MSAT_LANGUAGE ) == "es-mx") {
-                    $language_speaker = "Escuchar texto";
-                }
-
+                $language_speaker = "Listen to Article";
                 $custom_content = '
                                     <label for="ouvir-texto" style="font-size: 10px;">' . $language_speaker . '</label>
                                     <br>

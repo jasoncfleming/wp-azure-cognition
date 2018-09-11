@@ -13,7 +13,9 @@
                         <p class="description" id="tagline-description">Click <a href="https://azure.microsoft.com/en-us/services/cognitive-services/speech/" target="_blank">here</a> to grab your Keys.</p>
                     </td>
                 </tr>
-
+                <tr>
+                    <td><hr></td>
+                </tr>
                 <tr>
                     <th scope="row">
                         <label for="<?= MSAT_AccessibilityTools::MSAT_COMPUTER_VISION_API; ?>">Computer Vision API</label>
@@ -23,33 +25,32 @@
                         <p class="description" id="tagline-description">Click <a href="https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/" target="_blank">here</a> to grab your Keys.</p>
                     </td>
                 </tr>
-
                 <tr>
                     <th scope="row">
-                        <label for="<?= MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API; ?>">Translator Text API </label>
+                        <label for="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>">Computer Vision Confidence</label>
                     </th>
                     <td>
-                        <input name="<?= MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API; ?>" id="<?= MSAT_AccessibilityTools::MSAT_TRANSLATOR_TEXT_API; ?>" value="<?= $msat_translator_text_api; ?>" class="regular-text" type="text">
-                        <p class="description" id="tagline-description">Click <a href="https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/" target="_blank">here</a> to grab your Keys. No need if you are using English language.</p>
+                        <input name="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>" id="<?= MSAT_AccessibilityTools::MSAT_CONFIDENCE; ?>" value="<?= $msat_confidence; ?>" class="regular-text" type="text">
+                        <p class="description" id="tagline-description">1-100 (~65 recommended)</p>
                     </td>
                 </tr>
-
                 <tr>
                     <th scope="row">
-                        <label for="<?= MSAT_AccessibilityTools::MSAT_LANGUAGE; ?>">Language </label>
+                        <label for="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>">Computer Vision Endpoint</label>
                     </th>
                     <td>
-                        <select name="<?= MSAT_AccessibilityTools::MSAT_LANGUAGE; ?>" id="<?= MSAT_AccessibilityTools::MSAT_LANGUAGE; ?>" class="regular-text" required>
-                            <?= $msat_languages; ?>
-                        </select>
-                        <p class="description" id="tagline-description">No post text translate, changes only the speaker. Need to re-generate all content manually.</p>
+                        <input name="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>" id="<?= MSAT_AccessibilityTools::MSAT_PICTURE_SUBTITLE_DESCRIBE_URL; ?>" value="<?= $msat_computer_vision_endpoint; ?>" class="regular-text" type="text">
+                        <p class="description" id="tagline-description">ex: https://southcentralus.api.cognitive.microsoft.com/vision/v1.0</p>
                     </td>
+                </tr>
+                <tr>
+                    <td><hr></td>
                 </tr>
             </tbody>
         </table>
 
         <p class="submit">
-            <input name="submit" id="submit" class="button button-primary" value="Salvar alterações" type="submit">
+            <input name="submit" id="submit" class="button button-primary" value="Save Options" type="submit">
         </p>
     </form>
 
