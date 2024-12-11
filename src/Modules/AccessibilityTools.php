@@ -24,7 +24,7 @@ function AccessibilityToolsPreferences() {
     );
 
     for ($i = 0; $i < count($msat_options); $i ++) {
-        eval("\$$msat_options[$i] = get_option( $msat_options[$i] );");
+        eval("\$$msat_options[$i] = get_option( '$msat_options[$i]' );");
     }
 
     /* Languages */
